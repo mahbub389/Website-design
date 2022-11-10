@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(255,255,255);
+    padding: 5px;
+}
+.marker{
+    width: 600px;
+    height: 50px;
+    background-color: red;
+    margin: 20px auto;
+}
+.red{
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+.green{
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+.blue{
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.whitebox{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.5;
+    display: inline-block;
+    border-left: 15px double black;
+}
+.cap{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
